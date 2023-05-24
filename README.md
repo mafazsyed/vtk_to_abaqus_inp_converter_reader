@@ -1,7 +1,6 @@
 # VTKtoAbaqusINPConverter-Reader User Guide
 
 # Table of Contents
-# Table of Contents
 
 - [Introduction](#introduction)
   - [About the Application](#about-the-application)
