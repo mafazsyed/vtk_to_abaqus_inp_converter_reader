@@ -13,7 +13,7 @@ Download and run the VTKtoAbaqusINPConverter.exe file from the [GitHub Page](htt
 ## Overview of User Interface
 Figure 1 shows the user interface of the application with reference to each chapter for the feature’s user guide.
 
-![User Interface](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/4aaedb76-38e9-4323-a0a3-e2af2eb94f5c)
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/4aaedb76-38e9-4323-a0a3-e2af2eb94f5c" width="500">
 
 Figure 1 – User Interface of the VTK to Abaqus INP Converter & Reader Application
 
@@ -22,7 +22,7 @@ Figure 1 – User Interface of the VTK to Abaqus INP Converter & Reader Applicat
 ## Checking VTK File and Cell Type
 To determine the element type of a VTK file, first browse to or specify the file path of the VTK file. Then, select ‘Check Element Type’, as shown by Figure 2.
 
-![Check Element](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/5b6b3958-ff83-4f8b-ac2d-9f2098b154d6)
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/5b6b3958-ff83-4f8b-ac2d-9f2098b154d6" width="500">
 
 Figure 2 – Check the File and Element Types Present in the VTK File (Steps in Numbers)
 
@@ -45,7 +45,7 @@ Other VTK file types have not been tried, however, could be tried, but successfu
 
 First, browse to or specify the file path of the VTK file then choose the appropriate conversion depending on the type of the VTK file (surface mesh, volume mesh, or volume mesh with material properties), as shown by Figure 4.
 
-![VTK to Abaqus](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/d1c6ea5d-26c2-475a-bbda-39e94cb839d0)
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/d1c6ea5d-26c2-475a-bbda-39e94cb839d0" width="500">
 
 Figure 4 – Convert VTK File to Corresponding Abaqus INP File (Steps in Numbers)
 
@@ -60,14 +60,14 @@ The following node-determining features are available:
 
 Figure 5 shows the relevant UI options in the application for each feature.
 
-![Node Identification](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/274729fe-280b-472c-875c-f8205d6cfb04)
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/274729fe-280b-472c-875c-f8205d6cfb04" width="500">
 
 Figure 5 – UI Options Highlighted for the Node Identification Features
 
 ### Input Nodal Coordinate Data File Format
 The input file for the node identification features should contain, on each line, the node number followed by its coordinates, spaced out with delimiters. An example is shown below:
 
-![Input File Format](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/da37ca60-178f-4768-a4dd-36eebeb28a34)
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/da37ca60-178f-4768-a4dd-36eebeb28a34" width="500">
 
 Note that a heading should not be included, and the nodes do not have to be in chronological order.
 
