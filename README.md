@@ -26,7 +26,7 @@ The VTK to Abaqus INP Converter and Reader application streamlines and automates
 The application only runs on Windows platforms, as of the latest version.
 
 ## Installation Guide
-Download and run the VTKtoAbaqusINPConverter.exe file from the [GitHub Page](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader) page. No installation is required.
+Download and run the VTKtoAbaqusINPConverter_1.1.0.exe file from the [GitHub Page](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader) page. No installation is required.
 
 ## Overview of User Interface
 Figure 1 shows the user interface of the application with reference to each chapter for the feature’s user guide.
