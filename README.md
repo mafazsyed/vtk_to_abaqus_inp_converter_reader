@@ -1,5 +1,24 @@
 # VTKtoAbaqusINPConverter-Reader User Guide
 
+# Table of Contents
+# Table of Contents
+
+- [Introduction](#introduction)
+  - [About the Application](#about-the-application)
+  - [System Requirements](#system-requirements)
+  - [Installation Guide](#installation-guide)
+  - [Overview of User Interface](#overview-of-user-interface)
+- [Features & Functionality](#features--functionality)
+  - [Checking VTK File and Cell Type](#checking-vtk-file-and-cell-type)
+  - [Converting VTK Files to Abaqus INP Files](#converting-vtk-files-to-abaqus-inp-files)
+  - [Node-Identification](#node-identification)
+    - [Input Nodal Coordinate Data File Format](#input-nodal-coordinate-data-file-format)
+    - [Finding Closest Node to a Reference Node (Coordinate)](#finding-closest-node-to-a-reference-node-coordinate)
+    - [Finding Least & Greatest Nodes](#finding-least--greatest-nodes)
+    - [Filter Nodes Based on Axis, Min/Max, & Distance Threshold (V)](#filter-nodes-based-on-axis-minmax--distance-threshold-v)
+- [Troubleshooting](#troubleshooting)
+- [Updates & Version History](#updates--version-history)
+
 # Introduction
 ## About the Application
 The VTK to Abaqus INP Converter and Reader application streamlines and automates the conversion of various VTK files to Abaqus INP files. This includes files such as surface mesh, volume mesh, and volume mesh with material properties VTK files. The application is also capable of identifying relevant node(s) for respective boundary and loading condition applications (or other purposes). The application can also easily determine the element type of the VTK file.
