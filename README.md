@@ -67,7 +67,7 @@ Figure 5 – UI Options Highlighted for the Node Identification Features
 ### Input Nodal Coordinate Data File Format
 The input file for the node identification features should contain, on each line, the node number followed by its coordinates, spaced out with delimiters. An example is shown below:
 
-[Input File Format](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/da37ca60-178f-4768-a4dd-36eebeb28a34)
+![Input File Format](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/da37ca60-178f-4768-a4dd-36eebeb28a34)
 
 Note that a heading should not be included, and the nodes do not have to be in chronological order.
 
