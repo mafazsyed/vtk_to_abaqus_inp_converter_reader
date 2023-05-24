@@ -13,7 +13,7 @@ Download and run the VTKtoAbaqusINPConverter.exe file from the [GitHub Page](htt
 ## Overview of User Interface
 Figure 1 shows the user interface of the application with reference to each chapter for the feature’s user guide.
 
-<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/4aaedb76-38e9-4323-a0a3-e2af2eb94f5c" alt="User Interface" width="200px
+![User Interface](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/4aaedb76-38e9-4323-a0a3-e2af2eb94f5c)
 
 Figure 1 – User Interface of the VTK to Abaqus INP Converter & Reader Application
 
