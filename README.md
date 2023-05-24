@@ -22,13 +22,13 @@ Figure 1 – User Interface of the VTK to Abaqus INP Converter & Reader Applicat
 ## Checking VTK File and Cell Type
 To determine the element type of a VTK file, first browse to or specify the file path of the VTK file. Then, select ‘Check Element Type’, as shown by Figure 2.
 
-![Check Element](figure2.png)
+![Check Element](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/5b6b3958-ff83-4f8b-ac2d-9f2098b154d6)
 
 Figure 2 – Check the File and Element Types Present in the VTK File (Steps in Numbers)
 
 The Cell Type Results window will display the VTK file and cell type(s) and the number of cells (elements) present, as shown by Figure 3.
 
-![Cell Type Results](figure3.png)
+![Cell Type Results](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/b89c75df-dc46-4cea-9fba-6d1844ce4d5a)
 
 Figure 3 – Cell Type Results Window Displaying the File and Cell Type
 
@@ -45,7 +45,7 @@ Other VTK file types have not been tried, however, could be tried, but successfu
 
 First, browse to or specify the file path of the VTK file then choose the appropriate conversion depending on the type of the VTK file (surface mesh, volume mesh, or volume mesh with material properties), as shown by Figure 4.
 
-![VTK to Abaqus](figure4.png)
+![VTK to Abaqus](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/d1c6ea5d-26c2-475a-bbda-39e94cb839d0)
 
 Figure 4 – Convert VTK File to Corresponding Abaqus INP File (Steps in Numbers)
 
@@ -60,34 +60,35 @@ The following node-determining features are available:
 
 Figure 5 shows the relevant UI options in the application for each feature.
 
-![Node Identification](figure5.png)
+![Node Identification](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/274729fe-280b-472c-875c-f8205d6cfb04)
 
 Figure 5 – UI Options Highlighted for the Node Identification Features
 
 ### Input Nodal Coordinate Data File Format
 The input file for the node identification features should contain, on each line, the node number followed by its coordinates, spaced out with delimiters. An example is shown below:
 
+(https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/da37ca60-178f-4768-a4dd-36eebeb28a34)
 
 Note that a heading should not be included, and the nodes do not have to be in chronological order.
 
 ### Finding Closest Node to a Reference Node (Coordinate)
 To determine the closest node to a reference node (coordinate), first specify the file path to the input file containing the nodal coordinate data then enter the x, y, and z reference coordinates to which the closest node will be determined. Select ‘Find Closest Node to a Reference Node’ to print the closest node (node ID), its coordinates, and its Euclidean distance to the specified coordinate are printed.
 
-![Closest Node](figure6.png)
+![Closest Node](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/d2c80911-d1e5-478a-bbd3-0c1e6f7fd197)
 
 Figure 6 – Closest Node to a Reference Coordinate Window
 
 ### Finding Least & Greatest Nodes
 To determine the least and greatest nodes within a coordinate axis, first specify the file path to the input file containing the nodal coordinate data, then enter the coordinate axis (‘x’, ‘y’, or ‘z’) and select ‘Find Least and Greatest Nodes’.
 
-![Least and Greatest Nodes](figure7.png)
+![Least and Greatest Nodes](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/5d09ccdc-86fa-40b8-a604-4811da345d69)
 
 Figure 7 – Least and Greatest Nodes Along a Specified Axis Window
 
 ### Filter Nodes Based on Axis, Min/Max, & Distance Threshold (V)
 To filter nodes based on the coordinate axis, min/mas, and a distance threshold (from the least or max), first specify the file path of the input file containing the nodal coordinate data and the output TXT or INP file (or any other preferred file format). Then, specify the coordinate axis (‘x’, ‘y’, or ‘z’) and ‘min’ or ‘max’ for the least or greatest node in the specified coordinate axis. Enter the distance threshold, V, and select ‘Filter and Save’. All nodes within a distance V of the greatest/least node on the specified axis is saved to the output file path directory.
 
-![Filter Nodes](figure8.png)
+![Filter Nodes](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/58a5753a-09b8-43a8-9161-5908a978b3df)
 
 Figure 8 – Filter Nodes Based on Coordinate Axis, Min/Max, and Distance Threshold Window
 
