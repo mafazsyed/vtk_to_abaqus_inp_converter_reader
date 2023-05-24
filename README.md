@@ -31,7 +31,7 @@ Download and run the VTKtoAbaqusINPConverter.exe file from the [GitHub Page](htt
 ## Overview of User Interface
 Figure 1 shows the user interface of the application with reference to each chapter for the feature’s user guide.
 
-<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/4aaedb76-38e9-4323-a0a3-e2af2eb94f5c" width="500">
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/4aaedb76-38e9-4323-a0a3-e2af2eb94f5c](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/f4a4d46b-9610-4b57-9241-9c26598af263)" width="500">
 
 Figure 1 – User Interface of the VTK to Abaqus INP Converter & Reader Application
 
@@ -78,7 +78,7 @@ The following node-determining features are available:
 
 Figure 5 shows the relevant UI options in the application for each feature.
 
-<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/274729fe-280b-472c-875c-f8205d6cfb04" width="500">
+<img src="https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader/assets/120568449/a17942fb-11c5-4f2d-aa41-c942b3cb7420" width="500">
 
 Figure 5 – UI Options Highlighted for the Node Identification Features
 
