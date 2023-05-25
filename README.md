@@ -125,7 +125,7 @@ The Windows Terminal/Shell window displays any errors encountered and prints rel
 
 - **Version 1.2.0 (In Development / Awaiting Release):** 
   - The closest node could be determined using a node ID as well instead of just coordinates
-  - Greatest and least nodes could be determined via a user-defined coordinate axis, instead of the existing coordinate axis. (Specifically useful to identify nodes along a specific line)
+  - Greatest and least nodes could be determined via a user-defined coordinate axis, instead of just using the existing coordinate axis. (Specifically useful to identify nodes along a specific line)
   - Greatest and least nodes for each coordinate axis printed instead of needing to select one
   - Updated text for each task to better represent the functionality
 
