@@ -128,4 +128,4 @@ The Windows Terminal/Shell window displays any errors encountered and prints rel
   - Greatest and least nodes could be determined via a user-defined coordinate axis, instead of just using the existing coordinate axis. (Specifically useful to identify nodes along a specific line)
   - Greatest and least nodes for each coordinate axis printed instead of needing to select one
   - Updated text for each task to better represent the functionality
-  - Looking at options to add MacOS compatibility.
+  - Looking at options to add MacOS compatibility
