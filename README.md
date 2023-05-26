@@ -23,7 +23,7 @@
 The VTK to Abaqus INP Converter and Reader application streamlines and automates the conversion of various VTK files to Abaqus INP files. This includes files such as surface mesh, volume mesh, and volume mesh with material properties VTK files. The application is also capable of identifying relevant node(s) for respective boundary and loading condition applications (or other purposes). The application can also easily determine the element type of the VTK file.
 
 ## System Requirements
-The latest version of the application operates on Windows platforms, but it could be run on Linux using the Wine compatibility layer.
+The latest version of the application operates on Windows platforms, but it could be run on Linux using the Wine compatibility layer. Better Linux and MacOS compatibility are in development.
 
 ## Installation Guide
 Download and run the VTKtoAbaqusINPConverter_1.1.0.exe file from the [GitHub Page](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader) page. No installation is required.
@@ -128,4 +128,4 @@ The Windows Terminal/Shell window displays any errors encountered and prints rel
   - Greatest and least nodes could be determined via a user-defined coordinate axis, instead of just using the existing coordinate axis. (Specifically useful to identify nodes along a specific line)
   - Greatest and least nodes for each coordinate axis printed instead of needing to select one
   - Updated text for each task to better represent the functionality
-  - Looking at options to add MacOS compatibility
+  - Looking at options to add MacOS (and direct Linux instead of using Wine) compatibility
