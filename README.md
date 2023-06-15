@@ -56,8 +56,8 @@ All VTK cell types are supported; refer to the VTK documentation for an up-to-da
 The following VTK files (either Legacy ASCII or Legacy Binary) could be converted to their corresponding Abaqus INP files:
 
 - Surface Mesh VTK of the Element Type CPE3 (cell type 4)
-- Volume Mesh VTK of the Element Type C3D10 (cell type 4)
-- Volume Mesh with Material Properties VTK of the Element Type C3D10 (cell type 4)
+- Volume Mesh VTK of the Element Type C3D10 (cell type 24)
+- Volume Mesh with Material Properties VTK of the Element Type C3D10 (cell type 24)
 
 Other VTK file types have not been tried, however, could be tried, but successful or accurate conversion is not guaranteed.
 
