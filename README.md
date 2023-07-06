@@ -123,6 +123,9 @@ The Windows Terminal/Shell window displays any errors encountered and prints rel
   - Other user interface and quality of life updates
   - Added a window pop-up displaying the cell type instead of having to refer to the console
   - Added Linux support/compatibility
+ 
+- **Version 1.2.0:**
+    - Minor Error Fixes in the 'About' Window
 
 - **Version 1.2.0 (In Development / Awaiting Release):** 
   - The closest node could be determined using a node ID as well instead of just coordinates
