@@ -23,10 +23,10 @@
 The VTK to Abaqus INP Converter and Reader application streamlines and automates the conversion of various VTK files to Abaqus INP files. This includes files such as surface mesh, volume mesh, and volume mesh with material properties VTK files. The application is also capable of identifying relevant node(s) for respective boundary and loading condition applications (or other purposes). The application can also easily determine the element type of the VTK file.
 
 ## System Requirements
-The latest version of the application operates on Windows platforms, but it could be run on Linux using the Wine compatibility layer. Better Linux and MacOS compatibility are in development.
+The latest version of the application supports Windows and Linux operating systems.
 
 ## Installation Guide
-Download and run the VTKtoAbaqusINPConverter_1.1.0.exe file from the [GitHub Page](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader) page. No installation is required.
+Download and run the VTKtoAbaqusINPConverter_1.1.0.exe file (or VTKtoAbaqusINPConverter_1.1.0_ubuntu for Linux) from the [GitHub Page](https://github.com/mafazsyed/VTKtoAbaqusINPConverter-Reader) page. No installation is required.
 
 ## Overview of User Interface
 Figure 1 shows the user interface of the application with reference to each chapter for the feature’s user guide.
@@ -56,8 +56,8 @@ All VTK cell types are supported; refer to the VTK documentation for an up-to-da
 The following VTK files (either Legacy ASCII or Legacy Binary) could be converted to their corresponding Abaqus INP files:
 
 - Surface Mesh VTK of the Element Type CPE3 (cell type 4)
-- Volume Mesh VTK of the Element Type C3D10 (cell type 4)
-- Volume Mesh with Material Properties VTK of the Element Type C3D10 (cell type 4)
+- Volume Mesh VTK of the Element Type C3D10 (cell type 24)
+- Volume Mesh with Material Properties VTK of the Element Type C3D10 (cell type 24)
 
 Other VTK file types have not been tried, however, could be tried, but successful or accurate conversion is not guaranteed.
 
@@ -122,10 +122,11 @@ The Windows Terminal/Shell window displays any errors encountered and prints rel
   - Updated graphical user interface to a modern style
   - Other user interface and quality of life updates
   - Added a window pop-up displaying the cell type instead of having to refer to the console
+  - Added Linux support/compatibility
 
 - **Version 1.2.0 (In Development / Awaiting Release):** 
   - The closest node could be determined using a node ID as well instead of just coordinates
   - Greatest and least nodes could be determined via a user-defined coordinate axis, instead of just using the existing coordinate axis. (Specifically useful to identify nodes along a specific line)
   - Greatest and least nodes for each coordinate axis printed instead of needing to select one
   - Updated text for each task to better represent the functionality
-  - Looking at options to add MacOS (and direct Linux instead of using Wine) compatibility
+  - Looking at options to add MacOS compatibility
